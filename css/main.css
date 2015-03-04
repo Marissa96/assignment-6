@@ -86,12 +86,17 @@ nav a:hover {
   background-color: #a93f35;
 }
 
+figure{
+  margin: 0;
+}
+
 img {
   width: 100%;
 }
 
 figcaption {
   text-align: center;
+  padding-bottom: 1em;
 }
 
 .rice{
@@ -100,7 +105,6 @@ figcaption {
 }
 
 .rice-caption{
-  clear: left;
 }
 
 .oats {
@@ -110,4 +114,26 @@ figcaption {
 
 .oats-caption {
   clear: right;
+}
+
+.peanuts {
+  float: left;
+  width: 20%
+}
+
+.beans {
+  clear: left;
+  float: left;
+  width: 20%;
+}
+
+.lentils {
+  clear: left;
+  float: left;
+  width: 20%
+}
+
+footer {
+  clear: center;
+  background-color: #d05c2e;
 }
