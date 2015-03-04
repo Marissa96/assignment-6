@@ -1,0 +1,60 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.first-illustration-grain {
+  float: left;
+width: 10%;
+}
+
+.second-illustration-grain {
+  float: right;
+  width: 10%;
+}
+
+body {
+  margin: 0;
+
+}
+header {
+  background-color: #d05c2e;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  margin: 0.25em;
+  padding: 0.5em;
+  border-top: 2px solid #a93f35;
+  display: block;
+}
+
+ol li {
+  display: inline-block;
+}
+
+h1 {
+  margin: 0;
+}
+
+nav a:hover {
+  background-color: #a93f35;
+}
+
+img {
+  width: 100%;
+}
