@@ -16,6 +16,31 @@ width: 10%;
   width: 10%;
 }
 
+.grain-in-bags {
+  float: left;
+  width: 40%;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.cereals {
+  float: right;
+  width: 50%;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.quinoa {
+  float: right;
+  width: 50%;
+  margin-left: 15px;
+}
+
+.p2 {
+  clear: left;
+}
+
 body {
   margin: 0;
 
@@ -51,10 +76,38 @@ h1 {
   margin: 0;
 }
 
+div {
+  text-align: center;
+  background-color: #dc8252;
+  color: white;
+}
+
 nav a:hover {
   background-color: #a93f35;
 }
 
 img {
   width: 100%;
+}
+
+figcaption {
+  text-align: center;
+}
+
+.rice{
+  float: left;
+  width: 50%;
+}
+
+.rice-caption{
+  clear: left;
+}
+
+.oats {
+  float: right;
+  width: 50%;
+}
+
+.oats-caption {
+  clear: right;
 }
